@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#030712" rx="96"/>
+  <!-- Outer ring -->
+  <circle cx="256" cy="256" r="192" fill="none" stroke="#374151" stroke-width="24"/>
+  <!-- Tick marks at 12, 3, 6, 9 -->
+  <line x1="256" y1="80" x2="256" y2="112" stroke="#6b7280" stroke-width="16" stroke-linecap="round"/>
+  <line x1="432" y1="256" x2="400" y2="256" stroke="#6b7280" stroke-width="16" stroke-linecap="round"/>
+  <line x1="256" y1="432" x2="256" y2="400" stroke="#6b7280" stroke-width="16" stroke-linecap="round"/>
+  <line x1="80" y1="256" x2="112" y2="256" stroke="#6b7280" stroke-width="16" stroke-linecap="round"/>
+  <!-- Hour hand -->
+  <line x1="256" y1="256" x2="256" y2="136" stroke="#f9fafb" stroke-width="20" stroke-linecap="round"/>
+  <!-- Minute hand -->
+  <line x1="256" y1="256" x2="348" y2="290" stroke="#9ca3af" stroke-width="14" stroke-linecap="round"/>
+  <!-- Center dot -->
+  <circle cx="256" cy="256" r="10" fill="#f9fafb"/>
+  <!-- Beat pulse dots (paperstrip aesthetic) -->
+  <circle cx="140" cy="380" r="8" fill="#4ade80"/>
+  <circle cx="180" cy="360" r="8" fill="#60a5fa"/>
+  <circle cx="220" cy="375" r="8" fill="#4ade80"/>
+  <circle cx="260" cy="358" r="8" fill="#60a5fa"/>
+  <circle cx="300" cy="372" r="8" fill="#4ade80"/>
+  <circle cx="340" cy="355" r="8" fill="#60a5fa"/>
+  <circle cx="380" cy="368" r="8" fill="#4ade80"/>
+</svg>
